@@ -34,6 +34,13 @@ public class DestructibleWall : MonoBehaviour, IDamageable
     private void Break()
     {
         isDestroyed = true;
+        // マネージャーへ破壊した座標を伝える
+        Vector2Int cellPos = new Vector2Int(Mathf.FloorToInt(transform.position.x), Mathf.FloorToInt(transform.position.y));
+        if (BuriedItemManager.Instance != null)
+        {
+            BuriedItemManager.Instance.OnTileDestroyed(cellPos);
+        }
+
 
 
 
