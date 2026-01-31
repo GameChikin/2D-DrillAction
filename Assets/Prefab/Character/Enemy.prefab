@@ -314,6 +314,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2768096488668587908}
   - component: {fileID: 2120325354678459763}
+  - component: {fileID: 4684239950286791597}
   m_Layer: 7
   m_Name: SpriteVisual
   m_TagString: Untagged
@@ -394,3 +395,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4684239950286791597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3144143174478376764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a635b62926fe93f4aa665bcff90d5241, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DamageFlasher
+  settings: {fileID: 11400000, guid: b77593756c2dea040b95e53359ebdb64, type: 2}
+  targetRenderer: {fileID: 0}
