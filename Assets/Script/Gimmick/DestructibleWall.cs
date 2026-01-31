@@ -34,25 +34,24 @@ public class DestructibleWall : MonoBehaviour, IDamageable
     private void Break()
     {
         isDestroyed = true;
-        // マネージャーへ破壊した座標を伝える
-        Vector2Int cellPos = new Vector2Int(Mathf.FloorToInt(transform.position.x), Mathf.FloorToInt(transform.position.y));
+
+        // 【修正】/ 0.5f などの補正を完全に排除
+        // Unity の 1 ユニット = 1 タイルとして整数座標を算出
+        Vector2Int cellPos = new Vector2Int(
+            Mathf.FloorToInt(transform.position.x),
+            Mathf.FloorToInt(transform.position.y)
+        );
+
         if (BuriedItemManager.Instance != null)
-        {
             BuriedItemManager.Instance.OnTileDestroyed(cellPos);
-        }
 
-
-
-
+        // ... 以下、既存の破壊演出
         if (wallCollider != null) wallCollider.enabled = false;
         if (obstacle != null) obstacle.enabled = false;
-
         if (destroyEffectPrefab != null)
             Instantiate(destroyEffectPrefab, transform.position, Quaternion.identity);
-
         if (TryGetComponent<Renderer>(out var renderer))
             renderer.enabled = false;
-        
         Destroy(gameObject, 1.0f);
     }
 }
