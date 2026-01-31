@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingLayerID: 828502399
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b7ca38824185fb84d8009e140bbf4d81, type: 3}
+  m_Sprite: {fileID: -5984069736476744848, guid: 0f830a593d9c2324fa6797fd6e2b8e68, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -131,7 +131,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.48, y: 1.48}
+    oldSize: {x: 0.644, y: 1}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e1080a5e35baaa4e88d9b726d5a2173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArmorPiece
-  hp: 5
+  hp: 3
   breakEffect: {fileID: 2035162564966982285, guid: 03a0bd864a73c3946a4b50498dc89f4f, type: 3}
 --- !u!114 &6512670488316959871
 MonoBehaviour:
@@ -272,7 +272,7 @@ MonoBehaviour:
   discoveryIcon: {fileID: 0}
   lostIcon: {fileID: 0}
   iconDuration: 1
-  canBeStunned: 0
+  canBeStunned: 1
   damagedSprite: {fileID: 0}
   stunDuration: 0.4
   shakeAmount: 0.08
@@ -408,7 +408,7 @@ SpriteRenderer:
   m_SortingLayerID: 828502399
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b7ca38824185fb84d8009e140bbf4d81, type: 3}
+  m_Sprite: {fileID: -5984069736476744848, guid: 0f830a593d9c2324fa6797fd6e2b8e68, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -457,7 +457,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.48, y: 1.48}
+    oldSize: {x: 0.644, y: 1}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -477,7 +477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e1080a5e35baaa4e88d9b726d5a2173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArmorPiece
-  hp: 5
+  hp: 3
   breakEffect: {fileID: 2035162564966982285, guid: 03a0bd864a73c3946a4b50498dc89f4f, type: 3}
 --- !u!114 &7139069792082455798
 MonoBehaviour:
@@ -575,7 +575,7 @@ SpriteRenderer:
   m_SortingLayerID: 828502399
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b7ca38824185fb84d8009e140bbf4d81, type: 3}
+  m_Sprite: {fileID: -5984069736476744848, guid: 0f830a593d9c2324fa6797fd6e2b8e68, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -624,7 +624,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.48, y: 1.48}
+    oldSize: {x: 0.644, y: 1}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -644,7 +644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e1080a5e35baaa4e88d9b726d5a2173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArmorPiece
-  hp: 5
+  hp: 3
   breakEffect: {fileID: 2035162564966982285, guid: 03a0bd864a73c3946a4b50498dc89f4f, type: 3}
 --- !u!114 &3419705327141000841
 MonoBehaviour:
@@ -742,7 +742,7 @@ SpriteRenderer:
   m_SortingLayerID: 828502399
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b7ca38824185fb84d8009e140bbf4d81, type: 3}
+  m_Sprite: {fileID: -5984069736476744848, guid: 0f830a593d9c2324fa6797fd6e2b8e68, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -791,7 +791,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.48, y: 1.48}
+    oldSize: {x: 0.644, y: 1}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -811,7 +811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e1080a5e35baaa4e88d9b726d5a2173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArmorPiece
-  hp: 5
+  hp: 3
   breakEffect: {fileID: 2035162564966982285, guid: 03a0bd864a73c3946a4b50498dc89f4f, type: 3}
 --- !u!114 &7809186338259453034
 MonoBehaviour:
@@ -941,7 +941,7 @@ SpriteRenderer:
   m_SortingLayerID: 828502399
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b7ca38824185fb84d8009e140bbf4d81, type: 3}
+  m_Sprite: {fileID: -5984069736476744848, guid: 0f830a593d9c2324fa6797fd6e2b8e68, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -990,7 +990,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.48, y: 1.48}
+    oldSize: {x: 0.644, y: 1}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1010,7 +1010,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e1080a5e35baaa4e88d9b726d5a2173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArmorPiece
-  hp: 5
+  hp: 3
   breakEffect: {fileID: 2035162564966982285, guid: 03a0bd864a73c3946a4b50498dc89f4f, type: 3}
 --- !u!114 &764376852548513099
 MonoBehaviour:
@@ -1108,7 +1108,7 @@ SpriteRenderer:
   m_SortingLayerID: 828502399
   m_SortingLayer: 5
   m_SortingOrder: 10
-  m_Sprite: {fileID: -32478454325508090, guid: bae16bb80147fa543a55e4fb371ce3c1, type: 3}
+  m_Sprite: {fileID: -6831175307787661402, guid: 2b6826df4c4cf61439534b2537d0b223, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1157,7 +1157,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.993266, y: 0.993266}
+    oldSize: {x: 0.7125, y: 0.89625}
     newSize: {x: 0.993266, y: 0.993266}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1276,7 +1276,7 @@ SpriteRenderer:
   m_SortingLayerID: 828502399
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b7ca38824185fb84d8009e140bbf4d81, type: 3}
+  m_Sprite: {fileID: -5984069736476744848, guid: 0f830a593d9c2324fa6797fd6e2b8e68, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1325,7 +1325,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.48, y: 1.48}
+    oldSize: {x: 0.644, y: 1}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1345,7 +1345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e1080a5e35baaa4e88d9b726d5a2173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArmorPiece
-  hp: 5
+  hp: 3
   breakEffect: {fileID: 2035162564966982285, guid: 03a0bd864a73c3946a4b50498dc89f4f, type: 3}
 --- !u!114 &2426284317981422234
 MonoBehaviour:
@@ -1443,7 +1443,7 @@ SpriteRenderer:
   m_SortingLayerID: 828502399
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b7ca38824185fb84d8009e140bbf4d81, type: 3}
+  m_Sprite: {fileID: -5984069736476744848, guid: 0f830a593d9c2324fa6797fd6e2b8e68, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1492,7 +1492,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.48, y: 1.48}
+    oldSize: {x: 0.644, y: 1}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1512,7 +1512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e1080a5e35baaa4e88d9b726d5a2173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArmorPiece
-  hp: 5
+  hp: 3
   breakEffect: {fileID: 2035162564966982285, guid: 03a0bd864a73c3946a4b50498dc89f4f, type: 3}
 --- !u!114 &3767417991726072545
 MonoBehaviour:
@@ -1610,7 +1610,7 @@ SpriteRenderer:
   m_SortingLayerID: 828502399
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b7ca38824185fb84d8009e140bbf4d81, type: 3}
+  m_Sprite: {fileID: -5984069736476744848, guid: 0f830a593d9c2324fa6797fd6e2b8e68, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1659,7 +1659,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.48, y: 1.48}
+    oldSize: {x: 0.644, y: 1}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1679,7 +1679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e1080a5e35baaa4e88d9b726d5a2173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArmorPiece
-  hp: 5
+  hp: 3
   breakEffect: {fileID: 2035162564966982285, guid: 03a0bd864a73c3946a4b50498dc89f4f, type: 3}
 --- !u!114 &2408436834549110361
 MonoBehaviour:
